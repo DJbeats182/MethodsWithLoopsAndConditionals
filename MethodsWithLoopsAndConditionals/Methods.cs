@@ -75,12 +75,11 @@ internal class Methods
     }
 
     public static void VotingAge()
-    {
-        Console.WriteLine("Hello");
+    {        
         bool candidateAge;
         do
         {
-            //Console.WriteLine("Enter in your age:\n");
+            Console.WriteLine("Enter in your age:\n");
             candidateAge = int.TryParse(Console.ReadLine(), out int input);
             if (candidateAge)
             {

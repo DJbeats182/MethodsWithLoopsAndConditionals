@@ -3,8 +3,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine(Methods.PrintRange(34, 5);
+        {            
             Console.WriteLine("Welcome to my Methods with Loops and Conditionals Program!!\n");
             Methods.delay(2000);
             Console.WriteLine("Press any \"Enter\" to continue");
